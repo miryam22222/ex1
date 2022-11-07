@@ -36,7 +36,6 @@ body {
 #shiny img:hover {
   filter: contrast(200%);
   transition: 5s;
-  filter: blur(0.5px);
 }
 
 #shiny button {
