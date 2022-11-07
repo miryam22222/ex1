@@ -30,6 +30,15 @@ body {
   filter: brightness(100%);
 }
 
+#shiny img {
+  filter: contrast(100%);
+}
+#shiny img:hover {
+  filter: contrast(200%);
+  transition: 5s;
+  filter: blur(0.5px);
+}
+
 #shiny button {
   cursor: pointer;
   background-color: #A25BF5;
