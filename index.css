@@ -19,19 +19,6 @@ body {
   cursor: pointer;
 }
 
-#cat img {
-  transition: 3s;
-  filter: brightness(60%);
-}
-
-#cat img:hover {
-  cursor: wait;
-  transition: 0.3s;
-  filter: brightness(100%);
-}
-
-#shiny img {
-  filter: contrast(100%);
 }
 #shiny img:hover {
   filter: contrast(200%);
