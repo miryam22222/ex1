@@ -19,10 +19,13 @@ body {
   cursor: pointer;
 }
 
+#shiny img {
+  filter: brightness(1.5);
 }
+
 #shiny img:hover {
-  filter: contrast(200%);
-  transition: 5s;
+  cursor: pointer;
+  filter: drop-shadow(4px 4px 10px black);
 }
 
 #shiny button {
@@ -38,4 +41,8 @@ body {
   display: inline-grid;
   font: unset;
   font-size: 18;
+}
+
+#shiny button:hover {
+  filter: brightness(1.3);
 }
