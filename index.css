@@ -29,3 +29,17 @@ body {
   transition: 0.3s;
   filter: brightness(100%);
 }
+
+#shiny button {
+  cursor: pointer;
+  background-color: #A25BF5;
+  color: white;
+  border: none;
+  width: auto;
+  height: auto;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-grid;
+  font: unset;
+  font-size: 18;
+}
