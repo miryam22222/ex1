@@ -1,48 +1,81 @@
 body {
-  background-color: #f5f5f5;
-  color: #2d2c2c
+    background-color: #E88D7A;
+    color: #2d2c2c;
+  }
+
+h1 {
+    font-size: 40;
 }
 
-#container {
-  width: 100%;
+p {
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
-#main {
-  margin: 0 auto;
+button {
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    padding: 15px 32px;
+    border-radius: 20px;
+    text-align: center;
+    /* display: inline-grid; */
+    font-size: 18;
 }
 
-#cat {
-  padding: 1rem 0 1rem 0;
+button:hover {
+    filter: brightness(1.3);
 }
 
-#contact button {
-  cursor: pointer;
-}
+  #container {
+    width: 100%;
+  }
+  
+  #main {
+    margin: 0 auto;
+  }
 
-#shiny img {
-  filter: brightness(1.5);
-}
+  #contact button {
+    background-color: rgb(43, 160, 43);
+  }
 
-#shiny img:hover {
-  cursor: pointer;
-  filter: drop-shadow(4px 4px 10px black);
-}
+  #contact a {
+    color: white;
+  }
+  
+  #shiny img {
+    filter: brightness(1.5);
+  }
+  
+  #shiny img:hover {
+    cursor: pointer;
+    filter: drop-shadow(4px 4px 10px black);
+  }
+  
+  #shiny button {
+    background: url("shiny_bg1.jpg");
+    color: white;
+  }
 
-#shiny button {
-  cursor: pointer;
-  background: url("shiny_bg1.jpg");
-  color: white;
-  border: none;
-  width: auto;
-  height: auto;
-  padding: 15px 32px;
-  border-radius: 20px;
-  text-align: center;
-  display: inline-grid;
-  font: unset;
-  font-size: 18;
-}
+  #not_shiny button {
+    background: rgb(170, 79, 79);
+    color: wheat;
+  }
 
-#shiny button:hover {
-  filter: brightness(1.3);
-}
+  #shiny button, #not_shiny button {
+    display:inline-block;
+  }
+
+  #easter_egg button {
+    cursor: not-allowed;
+    background: url("virus.jpg");
+    color: rgb(0, 255, 13);
+
+    height: 280;
+    width: 300;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  #Instructions ul {
+    list-style-type: none;
+  }
